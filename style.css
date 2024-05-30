@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #f3d7b7;
+  cursor: pointer;
+  margin-bottom: 130px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 40px;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  padding: 22px 0px;
+  font-weight: 700;
+  color: #333333;
+  font-size: 12px;
+}
+
+nav ul li a {
+  padding-bottom: 7px;
+  border-bottom: none;
+}
+
+nav ul li a:hover {
+  transition: 1s;
+  border-bottom: 2px solid red;
+}
+.showcaise {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 216px;
+}
+.showcaise-left p {
+  margin-top: 47px;
+  margin-bottom: 47px;
+  font-weight: 400px;
+  font-size: 16px;
+  width: 464px;
+}
+.showcaise-left button {
+  border-radius: 100px;
+  padding: 16px 24px;
+  background-color: #0a775f;
+  color: white;
+  font-weight: 500;
+  font-style: 16px;
+  border: none;
+}
+
+.showcaise h1 {
+  font-style: 64px;
+  font-weight: 700;
+  color: black;
+}
+.image1 {
+  transform: translateY(60px);
+  width: 590px;
+  height: 730px;
+}
+.image2 {
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+  left: 660px;
+}
+.image2:hover {
+  animation-name: aylana;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes aylana {
+  form {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.messi {
+  text-align: center;
+  margin-top: 38px;
+  font-size: 50px;
+}
+.img {
+  display: flex;
+  margin-top: 42px;
+  width: 465.31px;
+}
+.cofebox {
+  margin-top: 163px;
+  margin-left: 120.98px;
+}
+.bigbon {
+  display: flex;
+}
+.h33 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.img {
+  display: flex;
+  margin-top: 42px;
+  width: 465.31px;
+  margin-bottom: 89px;
+}
+.img:hover {
+  animation-name: yaqinlashish;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes yaqinlashish {
+  form {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+footer {
+  background-color: #f3d7b7;
+  width: 100%;
+  height: 160px;
+}
+.more {
+  display: flex;
+  justify-content: space-between;
+  
+  padding-top: 62px;
+}
+.div-p-footer {
+  display: flex;
+  gap: 40px;
+}
+.div-icons-footer {
+  display: flex;
+  gap: 30px;
+}
+.img-about1 {
+  width: 100%;
+  margin-top: 82px;
+}
+.header {
+  width: 1400px;
+  height: 720px;
+}
+.commitment {
+  display: flex;
+  align-items: center;
+  gap: 318px;
+}
+.our {
+  margin-bottom: 64px;
+  font-style: 48px;
+}
+.commitment-end {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.bg-color{
+  background-color: #C99B67;
+  margin-top: 216px;
+  padding: 109px 55px;
+  color: white;
+}
+
+
+.tepa{
+  transform: translateY(-240px);
+}
